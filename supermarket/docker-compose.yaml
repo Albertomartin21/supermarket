@@ -1,0 +1,12 @@
+services:
+  stores-app:
+    image: jameral/stores:latest
+    container_name: stores-app
+    platform: linux/arm64/v8
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./init.sql:/data/init.sql
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:h2:mem:stores;INIT=RUNSCRIPT FROM 'file:/data/init.sql';DB_CLOSE_DELAY=-1
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=create

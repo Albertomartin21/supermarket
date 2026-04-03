@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS STORES (
+    id INT PRIMARY KEY,
+    description VARCHAR(255),
+    address VARCHAR(255),
+    city VARCHAR(100)
+);
