@@ -1,13 +1,10 @@
 # Supermarket
 
-## :open_book: Table of Contents
+## Table of Contents
 
-- [Execution](#execution)
-    - [Docker](#docker)
-    - [Compile](#compile)
-    - [Run](#run)
-- [Test](#test)
-    - [Test application](#test_application)
+- [Description](#description)
+- [Requirements](#requirements)
+- [Project Configuration and Execution](#test)
 - [Developer](#developer)  
 
 ## Description:
@@ -27,7 +24,7 @@ This project is a microservice for managing supermarkets and employees, enabling
 
 ## Project Configuration and Execution
 
-### 1. 
+### 1. Clone Repository
 Clone the Repository
 
 ```bash
